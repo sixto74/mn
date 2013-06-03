@@ -3,7 +3,7 @@
 
 void biseccion(void)
 {
-  float xa, xb, tol, xm;
+  float xa, xb, tol, xm, xmold, ea, es;
   int cont, maxit;
 
   system("clear");
@@ -14,14 +14,17 @@ void biseccion(void)
   scanf("%f",&xa);
   printf ("\nDe el valor del limite derecho xb: ");
   scanf("%f",&xb);
-  printf ("\nDe el valor de la tolerancia tol: ");
-  scanf("%f",&tol);
+  printf ("\nDe el valor del error rel porc. deseado: ");
+  scanf("%f",&es);
   printf ("\nDe el numero maximo de iteraciones: ");
   scanf("%d",&maxit);
 
-  printf ("\n\n|  i |    xa    |    xb    |  f(xa)   |  f(xb)   |    xm    |  f(xm)   | \n");
-  printf ("_______________________________________________________________________\n");
+  printf ("\n\n|  i |    xa    |    xb    |  f(xa)   |  f(xb)   |    xm    |  f(xm)   |   ea   \n");
+  printf ("____________________________________________________________________________________\n");
   cont = 0;
+
+  xm=(xa + xb)/2.0;
+  xmold = xm;
 
   if (f(xa)*f(xb) < 0)
     {
@@ -39,9 +42,12 @@ void biseccion(void)
 	    xa = xm;
 	  }
 	cont++;
-	printf ("| %2d | %8.4f | %8.4f | %8.4f | %8.4f | %8.4f | %15.8f |\n",cont,xa, xb, f(xa), f(xb), xm, f(xm) );
 
-	if ( fabs(f(xm)) <= tol )
+	ea = ((xmold - xm)/xm) * 100;
+
+	printf ("| %2d | %8.4f | %8.4f | %8.4f | %8.4f | %8.4f | %15.8f |  %8.4f\n",cont,xa, xb, f(xa), f(xb), xm, f(xm), ea );
+
+	if ( ea <= es )
 	  break;
 
 	}
