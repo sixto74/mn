@@ -1,0 +1,97 @@
+# depslib dependency file v1.0
+1317099421 source:/home/enrique/Documents/Metodos-Numericos-Curso/raices/raices/main.c
+	"header.h"
+
+1299382702 /home/enrique/Documents/Metodos-Numericos-Curso/raices/raices/header.h
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	"funciones.h"
+
+1316747330 source:/home/enrique/Documents/Metodos-Numericos-Curso/raices/raices/menu.c
+
+1331226464 source:/home/enrique/Documents/Metodos-Numericos-Curso/raices/raices/biseccion.c
+	"funciones.h"
+
+1322579894 source:/home/enrique/Documents/Metodos-Numericos-Curso/raices/raices/df.c
+
+1322579894 source:/home/enrique/Documents/Metodos-Numericos-Curso/raices/raices/f.c
+
+1331226415 source:/home/enrique/Documents/Metodos-Numericos-Curso/raices/raices/newton.c
+	"funciones.h"
+
+1316743802 /home/enrique/Documents/Metodos-Numericos-Curso/raices/raices/funciones.h
+
+1299385095 source:/home/enrique/Documents/Metodos-Numericos-Curso/raices/raices/rfalsa.c
+	"funciones.h"
+
+1316744887 source:/home/enrique/Documents/Metodos-Numericos-Curso/raices/raices/secante.c
+	"funciones.h"
+
+1316747771 source:/home/enrique/Documents/Metodos-Numericos-Curso/raices/raices/pfijo.c
+	"funciones.h"
+
+1331226464 source:/home/enrique/RespaldoLapAcer/enrique/Documents/Metodos-Numericos-Curso/raices/raices/biseccion.c
+	"funciones.h"
+
+1316743802 /home/enrique/RespaldoLapAcer/enrique/Documents/Metodos-Numericos-Curso/raices/raices/funciones.h
+
+1322579894 source:/home/enrique/RespaldoLapAcer/enrique/Documents/Metodos-Numericos-Curso/raices/raices/df.c
+
+1336060738 source:/home/enrique/RespaldoLapAcer/enrique/Documents/Metodos-Numericos-Curso/raices/raices/f.c
+
+1332436547 source:/home/enrique/RespaldoLapAcer/enrique/Documents/Metodos-Numericos-Curso/raices/raices/menu.c
+
+1331226415 source:/home/enrique/RespaldoLapAcer/enrique/Documents/Metodos-Numericos-Curso/raices/raices/newton.c
+	"funciones.h"
+
+1316747771 source:/home/enrique/RespaldoLapAcer/enrique/Documents/Metodos-Numericos-Curso/raices/raices/pfijo.c
+	"funciones.h"
+
+1299385095 source:/home/enrique/RespaldoLapAcer/enrique/Documents/Metodos-Numericos-Curso/raices/raices/rfalsa.c
+	"funciones.h"
+
+1316744887 source:/home/enrique/RespaldoLapAcer/enrique/Documents/Metodos-Numericos-Curso/raices/raices/secante.c
+	"funciones.h"
+
+1317099421 source:/home/enrique/RespaldoLapAcer/enrique/Documents/Metodos-Numericos-Curso/raices/raices/main.c
+	"header.h"
+
+1299382702 /home/enrique/RespaldoLapAcer/enrique/Documents/Metodos-Numericos-Curso/raices/raices/header.h
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	"funciones.h"
+
+1331226464 source:c:\documents and settings\administrador\escritorio\varios\metodos-numericos\raices\biseccion.c
+	"funciones.h"
+
+1316740202 c:\documents and settings\administrador\escritorio\varios\metodos-numericos\raices\funciones.h
+
+1322579894 source:c:\documents and settings\administrador\escritorio\varios\metodos-numericos\raices\df.c
+
+1336057138 source:c:\documents and settings\administrador\escritorio\varios\metodos-numericos\raices\f.c
+
+1332436546 source:c:\documents and settings\administrador\escritorio\varios\metodos-numericos\raices\menu.c
+
+1331226414 source:c:\documents and settings\administrador\escritorio\varios\metodos-numericos\raices\newton.c
+	"funciones.h"
+
+1316744170 source:c:\documents and settings\administrador\escritorio\varios\metodos-numericos\raices\pfijo.c
+	"funciones.h"
+
+1299385094 source:c:\documents and settings\administrador\escritorio\varios\metodos-numericos\raices\rfalsa.c
+	"funciones.h"
+
+1316741286 source:c:\documents and settings\administrador\escritorio\varios\metodos-numericos\raices\secante.c
+	"funciones.h"
+
+1317095820 source:c:\documents and settings\administrador\escritorio\varios\metodos-numericos\raices\main.c
+	"header.h"
+
+1299382702 c:\documents and settings\administrador\escritorio\varios\metodos-numericos\raices\header.h
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	"funciones.h"
+
