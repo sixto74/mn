@@ -95,3 +95,35 @@
 	<math.h>
 	"funciones.h"
 
+1370309739 source:c:\documents and settings\administrador\escritorio\varios\metodos-numericos\raices\mn\biseccion.c
+	"funciones.h"
+
+1370277716 c:\documents and settings\administrador\escritorio\varios\metodos-numericos\raices\mn\funciones.h
+
+1370277716 source:c:\documents and settings\administrador\escritorio\varios\metodos-numericos\raices\mn\df.c
+
+1370277716 source:c:\documents and settings\administrador\escritorio\varios\metodos-numericos\raices\mn\f.c
+
+1370277716 source:c:\documents and settings\administrador\escritorio\varios\metodos-numericos\raices\mn\menu.c
+
+1370277716 source:c:\documents and settings\administrador\escritorio\varios\metodos-numericos\raices\mn\newton.c
+	"funciones.h"
+
+1370277716 source:c:\documents and settings\administrador\escritorio\varios\metodos-numericos\raices\mn\pfijo.c
+	"funciones.h"
+
+1370277716 source:c:\documents and settings\administrador\escritorio\varios\metodos-numericos\raices\mn\rfalsa.c
+	"funciones.h"
+
+1370277716 source:c:\documents and settings\administrador\escritorio\varios\metodos-numericos\raices\mn\secante.c
+	"funciones.h"
+
+1370277716 source:c:\documents and settings\administrador\escritorio\varios\metodos-numericos\raices\mn\main.c
+	"header.h"
+
+1370277716 c:\documents and settings\administrador\escritorio\varios\metodos-numericos\raices\mn\header.h
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	"funciones.h"
+

@@ -6,7 +6,7 @@ void biseccion(void)
   float xa, xb, tol, xm, xmold, ea, es;
   int cont, maxit;
 
-  system("clear");
+  system("cls");
 
   printf("Programa para calcular una raiz por el Metodo de la Biseccion\n");
 
@@ -23,34 +23,33 @@ void biseccion(void)
   printf ("____________________________________________________________________________________\n");
   cont = 0;
 
-  xm=(xa + xb)/2.0;
-  xmold = xm;
+
+  xmold = xa;
 
   if (f(xa)*f(xb) < 0)
     {
       while( cont <= maxit )
 	{
 
-	xm = (xa + xb)/2.0;
+        xm = (xa + xb)/2.0;
 
-	if (f(xa)*f(xm)<0)
-	  {
-	    xb = xm;
-	  }
-	else
-	  {
-	    xa = xm;
-	  }
-	cont++;
+        if (f(xa)*f(xm)<0)
+          {
+                xb = xm;
+          }
+        else
+          {
+                xa = xm;
+          }
+        cont++;
 
-	ea = ((xmold - xm)/xm) * 100;
+        ea = ((xm - xmold)/xm) * 100;
 
-	printf ("| %2d | %8.4f | %8.4f | %8.4f | %8.4f | %8.4f | %15.8f |  %8.4f\n",cont,xa, xb, f(xa), f(xb), xm, f(xm), ea );
+        printf ("| %2d | %8.4f | %8.4f | %8.4f | %8.4f | %8.4f | %4.8f |  %8.4f\n",cont,xa, xb, f(xa), f(xb), xm, f(xm), ea );
 
-	if ( ea <= es )
-	  break;
-
-	}
+        if ( ea <= es )
+            break;
+    }
       printf ("\nLa Raiz es %6.4f\n",xm);
     }
 }
