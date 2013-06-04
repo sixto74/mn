@@ -127,3 +127,35 @@
 	<math.h>
 	"funciones.h"
 
+1370325435 source:/home/enrique/Documents/MetNum/proyecto-mn/mn/biseccion.c
+	"funciones.h"
+
+1370324600 /home/enrique/Documents/MetNum/proyecto-mn/mn/funciones.h
+
+1370324600 source:/home/enrique/Documents/MetNum/proyecto-mn/mn/df.c
+
+1370324600 source:/home/enrique/Documents/MetNum/proyecto-mn/mn/f.c
+
+1370324600 source:/home/enrique/Documents/MetNum/proyecto-mn/mn/menu.c
+
+1370324600 source:/home/enrique/Documents/MetNum/proyecto-mn/mn/newton.c
+	"funciones.h"
+
+1370324600 source:/home/enrique/Documents/MetNum/proyecto-mn/mn/pfijo.c
+	"funciones.h"
+
+1370324600 source:/home/enrique/Documents/MetNum/proyecto-mn/mn/rfalsa.c
+	"funciones.h"
+
+1370324600 source:/home/enrique/Documents/MetNum/proyecto-mn/mn/secante.c
+	"funciones.h"
+
+1370326448 source:/home/enrique/Documents/MetNum/proyecto-mn/mn/main.c
+	"header.h"
+
+1370324600 /home/enrique/Documents/MetNum/proyecto-mn/mn/header.h
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	"funciones.h"
+

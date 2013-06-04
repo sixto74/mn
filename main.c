@@ -2,7 +2,7 @@
 
 int main()
 {
-    char opc,rep;
+    char opc,resp;
 
     do{
         menu();
@@ -32,8 +32,8 @@ int main()
                 printf("\nOpcion Invalida\n");
         }
         printf("\n\nDeseas realizar otro calculo?: (s/n)");
-        scanf("%c %c",&rep);
-    }while(rep=='s');
+        scanf("%c %c",&resp);
+    }while(resp=='s');
 
     return 0;
 }

@@ -1,4 +1,4 @@
-//#include "header.h"
+#include "header.h"
 #include "funciones.h"
 
 void biseccion(void)
@@ -6,7 +6,7 @@ void biseccion(void)
   float xa, xb, tol, xm, xmold, ea, es;
   int cont, maxit;
 
-  system("cls");
+  system("clear");
 
   printf("Programa para calcular una raiz por el Metodo de la Biseccion\n");
 
@@ -43,12 +43,13 @@ void biseccion(void)
           }
         cont++;
 
-        ea = ((xm - xmold)/xm) * 100;
+        ea = fabs((xm - xmold)/xm) * 100;
 
-        printf ("| %2d | %8.4f | %8.4f | %8.4f | %8.4f | %8.4f | %4.8f |  %8.4f\n",cont,xa, xb, f(xa), f(xb), xm, f(xm), ea );
+        printf ("| %2d | %8.4f | %8.4f | %10.4f | %8.4f | %8.4f | %4.8f |  %8.4f\n",cont,xa, xb, f(xa), f(xb), xm, f(xm), ea );
 
         if ( ea <= es )
             break;
+        xmold = xm;
     }
       printf ("\nLa Raiz es %6.4f\n",xm);
     }
