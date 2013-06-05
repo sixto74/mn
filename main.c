@@ -33,10 +33,8 @@ int main()
             default:
                 printf("\nOpcion Invalida\n");
         }
-        fflush(stdin);
         printf("\n\nDeseas realizar otro calculo?: (s/n)");
         scanf("%c",&resp);
-        //fflush(stdin);
     }while(resp=='s');
 
     return 0;
