@@ -159,3 +159,37 @@
 	<math.h>
 	"funciones.h"
 
+1370393976 source:/home/esime/Escritorio/mn/biseccion.c
+	"header.h"
+	"funciones.h"
+
+1370393976 /home/esime/Escritorio/mn/header.h
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	"funciones.h"
+
+1370393976 /home/esime/Escritorio/mn/funciones.h
+
+1370393976 source:/home/esime/Escritorio/mn/df.c
+
+1370393976 source:/home/esime/Escritorio/mn/f.c
+
+1370393976 source:/home/esime/Escritorio/mn/newton.c
+	"funciones.h"
+
+1370393976 source:/home/esime/Escritorio/mn/pfijo.c
+	"funciones.h"
+
+1370393976 source:/home/esime/Escritorio/mn/rfalsa.c
+	"funciones.h"
+
+1370393976 source:/home/esime/Escritorio/mn/secante.c
+	"funciones.h"
+
+1370394180 source:/home/esime/Escritorio/mn/main.c
+	"header.h"
+
+1370394201 source:/home/esime/Escritorio/mn/menu.c
+	"header.h"
+

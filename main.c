@@ -2,37 +2,41 @@
 
 int main()
 {
-    char opc,resp;
+    char resp;
+    int opc;
 
     do{
+        system("clear");
         menu();
-        scanf("%c",&opc);
+        scanf("%d",&opc);
 
         switch(opc)
         {
-            case '1':
+            case 1:
                 biseccion();
                 break;
-            case '2':
+            case 2:
                 rfalsa();
                 break;
-            case '3':
+            case 3:
                 secante();
                 break;
-            case '4':
+            case 4:
                 newton();
                 break;
-            case '5':
+            case 5:
                 pfijo();
                 break;
-            case '0':
+            case 0:
                 printf("\nAdios!");
                 break;
             default:
                 printf("\nOpcion Invalida\n");
         }
+        fflush(stdin);
         printf("\n\nDeseas realizar otro calculo?: (s/n)");
-        scanf("%c %c",&resp);
+        scanf("%c",&resp);
+        //fflush(stdin);
     }while(resp=='s');
 
     return 0;
